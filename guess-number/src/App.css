@@ -1,0 +1,69 @@
+
+
+.game {
+  text-align: center;
+  margin-top:200px;
+  
+  font-family: Arial, sans-serif;
+}
+
+.numbers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.number-box {
+  width: 150px;
+  height: 150px;
+  border: 1px solid #000;
+  margin: 0 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: bold;
+  outline:0;
+}
+
+.number-box.correct {
+  background-color: green;
+  color: white;
+}
+
+.number-box.wrong {
+  background-color: red;
+  color: white;
+  animation: shake 0.5s;
+}
+
+@keyframes shake {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  50% { transform: translateX(5px); }
+  75% { transform: translateX(-5px); }
+  100% { transform: translateX(0); }
+}
+p{
+  font-size: 40px;
+}
+.message {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+button {
+  padding: 30px;
+  border:0;
+  outline:0;
+  border-radius: 50px;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+  background: plum;
+}
+button:hover{
+  background: rgba(221, 160, 221, 0.443);
+}
