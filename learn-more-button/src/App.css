@@ -1,0 +1,38 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+body{
+  background: rgba(247, 6, 46, 0.432);
+
+}
+h3{
+  text-align: center;
+}
+.container{
+  display: flex;
+  
+}
+.box{
+  border:2px solid black;
+  width:500px;
+  height:600px;
+  margin:50px;
+  padding:50px;
+  border-radius: 30px;
+}
+.btn{
+  display: flex;
+}
+button{
+  margin:30px auto;
+  justify-content: center;
+  width:150px;
+  padding:10px;
+  border-radius: 30px;
+  cursor: pointer;
+  border:0;
+  outline:0;
+}
