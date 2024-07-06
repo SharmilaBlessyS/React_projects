@@ -1,0 +1,48 @@
+/* Ensure the slider does not overflow and respects the layout */
+.slider {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .slides {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .slide {
+    min-width: 100%;
+    height: 500px; /* Adjust the height as necessary */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .transition {
+    transition: transform 0.5s ease;
+  }
+  
+  .btn {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+  }
+  
+  .prev {
+    left: 1rem;
+  }
+  
+  .next {
+    right: 1rem;
+  }
+  

@@ -1,0 +1,77 @@
+.footer-top{
+    display:flex;
+    background-color: #222;
+    color:white;
+    gap:150px;
+    font-size: 20px;
+    padding:30px;
+}
+.footer-top h1{
+    color:orange;
+    text-align: center;
+}
+.footer-top .first{
+    text-align: left;
+}
+
+.footer-top .second h5{
+    color:orange;
+    font-size: 25px;
+}
+.footer-top .second .icons{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    text-align: left;
+   
+    
+}
+.footer-top .second .icons i{
+    font-size: 30px;
+    padding:20px;
+}
+.footer-top .second .icons i:hover{
+    color:orange;
+    cursor: pointer;
+}
+.footer-top .third h5{
+    color:orange;
+    font-size: 25px;
+    text-align: center;
+}
+.footer-top .third ul{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    
+}
+.footer-top .third  i{
+    padding:20px;
+}
+.footer-top .third  i:hover{
+    color: orange;
+}
+.footer-top .four h5{
+    color:orange;
+    font-size: 25px;
+    text-align: center;
+}
+.footer-top .four input{
+    width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.footer-top .four button{
+    padding: 10px;
+  background: #fd9644;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.footer-top .four button:hover{
+    background: #e56b2f;
+}

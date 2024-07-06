@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Price from './Price';
 const Service = () => {
   return (
     <div>
@@ -31,6 +31,9 @@ const Service = () => {
             <p>Diam amet eos at no eos sit lorem, amet rebum ipsum clita stet, diam sea est magna diam eos, rebum sit vero stet ipsum justo</p>
         </div>
       </div>
+      <div className="price">
+            <Price/>
+        </div>
     </div>
   );
 }
